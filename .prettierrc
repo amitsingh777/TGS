@@ -1,0 +1,8 @@
+{
+    "jsxBracketSameLine": true,
+    "tabWidth": 4,
+    "useTabs": true,
+    "bracketSpacing": true,
+    "printWidth": 120,
+    "endOfLine": "auto"
+}
