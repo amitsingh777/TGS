@@ -1,0 +1,51 @@
+.excelPocContainer {
+	background-color: #eaf6f6;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+.mainContainer {
+	background-color: #ffffff;
+
+	max-width: 60rem;
+	border-radius: 5rem;
+	box-shadow: 1px 1px 100px 2px rgba(0, 0, 0, 0.2);
+	padding: 40px;
+
+	&Left {
+	}
+
+	&Right {
+		// background-color: pink;
+		max-width: 40rem;
+	}
+}
+
+.fileIcon {
+	width: 4rem;
+	display: inline-block;
+}
+
+.fileName {
+	display: inline-block;
+}
+
+.fileNameContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.rightContainerHeading {
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+.uploadFile {
+	display: flex;
+	align-items: center;
+	gap: 1.9rem;
+}
